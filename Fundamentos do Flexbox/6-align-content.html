@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos -  align content</title>
+
+    <style>
+        .container {
+            height: 400px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 2px solid white;
+        }
+
+        .item {
+            background-color: orange;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+
+        .strectch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .start {
+            align-content: flex-start;
+        }
+
+        .end {
+            align-content: flex-end;
+        }
+
+        .space-around {
+            align-content: space-around;
+        }
+
+        .space-between {
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <p>strectch </p>
+    <div class="container strectch">
+        <div class="item">O primeiro passo importante a se fazer,</div>
+        <div class="item">É possível verificar através do manual</div>
+        <div class="item">se existe suporte</div>
+        <div class="item">“Prompt de Comando”. Aperte com o botão direito do mouse em cima deste ícone e depois clique com o botão esquerdo do mouse em “Executar como Administrador”.</div>
+        <div class="item">DISKPART</div>
+        <div class="item">Agora que a unidade USB está selecionada, digitar CLEAN</div>
+        <div class="item">CREATE PARTITION PRIMARY</div>
+    </div>
+
+    <p>center</p>
+    <div class="container center">
+        <div class="item">O primeiro passo importante a se fazer,</div>
+        <div class="item">É possível verificar através do manual</div>
+        <div class="item">se existe suporte</div>
+        <div class="item">“Prompt de Comando”. Aperte com o botão direito do mouse em cima deste ícone e depois clique com o botão esquerdo do mouse em “Executar como Administrador”.</div>
+        <div class="item">DISKPART</div>
+        <div class="item">Agora que a unidade USB está selecionada, digitar CLEAN</div>
+        <div class="item">CREATE PARTITION PRIMARY</div>
+    </div>
+
+    <p>flex-start</p>
+    <div class="container start">
+        <div class="item">O primeiro passo importante a se fazer,</div>
+        <div class="item">É possível verificar através do manual</div>
+        <div class="item">se existe suporte</div>
+        <div class="item">“Prompt de Comando”. Aperte com o botão direito do mouse em cima deste ícone e depois clique com o botão esquerdo do mouse em “Executar como Administrador”.</div>
+        <div class="item">DISKPART</div>
+        <div class="item">Agora que a unidade USB está selecionada, digitar CLEAN</div>
+        <div class="item">CREATE PARTITION PRIMARY</div>
+    </div>
+
+    <p>flex-end</p>
+    <div class="container end">
+        <div class="item">O primeiro passo importante a se fazer,</div>
+        <div class="item">É possível verificar através do manual</div>
+        <div class="item">se existe suporte</div>
+        <div class="item">“Prompt de Comando”. Aperte com o botão direito do mouse em cima deste ícone e depois clique com o botão esquerdo do mouse em “Executar como Administrador”.</div>
+        <div class="item">DISKPART</div>
+        <div class="item">Agora que a unidade USB está selecionada, digitar CLEAN</div>
+        <div class="item">CREATE PARTITION PRIMARY</div>
+    </div>
+
+    <p>space-around</p>
+    <div class="container space-around">
+        <div class="item">O primeiro passo importante a se fazer,</div>
+        <div class="item">É possível verificar através do manual</div>
+        <div class="item">se existe suporte</div>
+        <div class="item">“Prompt de Comando”. Aperte com o botão direito do mouse em cima deste ícone e depois clique com o botão esquerdo do mouse em “Executar como Administrador”.</div>
+        <div class="item">DISKPART</div>
+        <div class="item">Agora que a unidade USB está selecionada, digitar CLEAN</div>
+        <div class="item">CREATE PARTITION PRIMARY</div>
+    </div>
+
+    <p>space-between</p>
+    <div class="container space-between">
+        <div class="item">O primeiro passo importante a se fazer,</div>
+        <div class="item">É possível verificar através do manual</div>
+        <div class="item">se existe suporte</div>
+        <div class="item">“Prompt de Comando”. Aperte com o botão direito do mouse em cima deste ícone e depois clique com o botão esquerdo do mouse em “Executar como Administrador”.</div>
+        <div class="item">DISKPART</div>
+        <div class="item">Agora que a unidade USB está selecionada, digitar CLEAN</div>
+        <div class="item">CREATE PARTITION PRIMARY</div>
+    </div>
+    
+</body>
+</html>
